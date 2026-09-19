@@ -1,0 +1,13 @@
+{
+  "name": "spice-and-ember-restaurant",
+  "version": "1.0.0",
+  "description": "Spice & Ember - Premium Modern Restaurant Website with Table Booking System & Admin Dashboard",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../client && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd backend && npm run build && cd ../client && npm run build",
+    "start": "cd backend && npm run start"
+  }
+}
